@@ -1,0 +1,26 @@
+# --- Data & Large Files ---
+# Exclude processed data directories (high volume of small files)
+processed_data_DGCNN_paper/
+processed_data/
+
+# --- Results & Logs ---
+# Exclude training results and saved CSV outputs
+RESULTS/
+*.csv
+# Exclude TensorBoard event logs
+runs/
+
+# --- Python Environment & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+venv/
+env/
+.env
+
+# --- Editor & System Settings ---
+# Exclude VS Code, PyCharm and OS-specific metadata
+.vscode/
+.idea/
+.DS_Store
